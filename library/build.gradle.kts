@@ -6,8 +6,8 @@ plugins {
     alias(libs.plugins.androidLibrary)
 }
 
-group = "io.github.kotlin"
-version = "1.0.0"
+group = "com.purenative"
+version = "0.0.1"
 
 kotlin {
     compilerOptions {
@@ -34,7 +34,7 @@ kotlin {
 }
 
 android {
-    namespace = "org.jetbrains.kotlinx.multiplatform.library.template"
+    namespace = "com.purenative.kmm.mobile.application.core"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     defaultConfig {
         minSdk = libs.versions.android.minSdk.get().toInt()
