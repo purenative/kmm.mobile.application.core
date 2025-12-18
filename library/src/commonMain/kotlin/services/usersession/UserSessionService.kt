@@ -1,9 +1,9 @@
-package com.purenative.usersession
+package com.purenative.services.usersession
 
 import com.russhwolf.settings.Settings
 import kotlinx.serialization.json.Json
 
-object UserSessionManager {
+object UserSessionService {
     private const val SESSION_USER_INFO_KEY = "com_purenative_session_user_info"
 
     private val settings = Settings()

@@ -1,4 +1,4 @@
-package com.purenative.usersession
+package com.purenative.services.usersession
 
 interface UserSessionObserver {
     val userSessionObserverIdentifier: String

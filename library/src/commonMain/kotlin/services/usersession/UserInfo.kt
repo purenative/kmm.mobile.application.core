@@ -1,4 +1,4 @@
-package com.purenative.usersession
+package com.purenative.services.usersession
 
 import kotlinx.serialization.Serializable
 

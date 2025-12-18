@@ -10,7 +10,7 @@ plugins {
 }
 
 group = "com.purenative"
-version = "0.0.2"
+version = "0.0.3"
 
 kotlin {
     compilerOptions {
@@ -49,6 +49,11 @@ kotlin {
 
             implementation(libs.multiplatform.settings)
             implementation(libs.multiplatform.settings.no.arg)
+        }
+        androidMain.dependencies {
+            implementation(libs.play.services.location)
+
+            implementation(libs.androidx.activity.compose)
         }
     }
 }
