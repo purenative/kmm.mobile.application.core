@@ -2,7 +2,7 @@ package com.purenative.services.location
 
 import com.purenative.application.ApplicationContextHolder
 
-actual class LocationService {
+actual object LocationService {
     private val context by lazy { ApplicationContextHolder.applicationContext }
     private val locationClient by lazy { LocationClientProxy() }
     private val geocoder by lazy { GeocoderProxy() }

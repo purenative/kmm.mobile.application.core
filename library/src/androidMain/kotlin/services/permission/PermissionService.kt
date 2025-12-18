@@ -39,7 +39,7 @@ object PermissionService {
     private suspend fun requestPermissionFromProvider(
         permissionName: String,
         provider: PermissionRequestProvider
-    ): Boolean = 
+    ): Boolean =
         suspendCoroutine { continuation ->
             requestPermissionFromProvider(
                 permissionName,
