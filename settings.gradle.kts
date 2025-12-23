@@ -14,4 +14,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "kmm-mobile-appication-core"
-include(":library")
+include(":KmmMobileApplicationCore")
