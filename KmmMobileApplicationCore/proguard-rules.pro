@@ -1,0 +1,2 @@
+-if @kotlinx.serialization.Serializable class ** { public *; }
+-keep enum * { public *; }
